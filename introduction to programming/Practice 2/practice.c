@@ -39,19 +39,12 @@
 //     long long int b;
 //     double c;
 //     char d;
-//     scanf("%d",&a);
-//     scanf("%lld",&b);
-//     scanf("%lf",&c);
-//     scanf(" %c",&d);
+//     scanf("%d\n %lld\n %lf\n %c\n",&a,&b,&c,&d);
 
-//     printf("%d\n", a);
-//     printf("%lld\n", b);
-//     printf("%lf\n", c);
-//     printf("%c\n", d);
+//     printf("%d\n%lld\n%lf\n%c\n", a,b,c,d);
 
 //     return 0;
 // }
-
 
 
 // 4 . I know and you also know that you love practice day so much. So this task is for you. You will be given a positive integer N, you need to print "I Love Practice" N times.
@@ -72,22 +65,119 @@
 
 // 5 .  You will be given a positive integer N, you need to print from 1 to N and besides the value, print Yes or No Print Yes if the value is divisible by 5 and print No otherwise.
 
-int main ()
-{
-    int n;
-    scanf("%d", &n);
+// int main ()
+// {
+//     int n;
+//     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++)
-    {
-        if (i % 5 == 0 )
-        {
-            printf("%d Yes\n", i);
-        }
-        else {
-            printf("%d No\n", i);
-        }
+//     for (int i = 1; i <= n; i++)
+//     {
+//         if (i % 5 == 0 )
+//         {
+//             printf("%d Yes\n", i);
+//         }
+//         else {
+//             printf("%d No\n", i);
+//         }
         
-    }
+//     }
     
+//     return 0;
+// }
+
+
+// Hello, world! I am learning C programming language. ^_^
+
+// Programming is fun and challenging. /\/\/\
+
+// I want to give my 100% dedication to learn!	I will succeed one day.
+
+// Note: Here you will see 4 spaces in the last line which is a tab, you need to print a tab there.
+
+
+
+
+// int main() {
+//     printf("Hello, world! I am learning C programming language. ^_^\n");
+//     printf("Programming is fun and challenging. /\\/\\/\\\n");
+//     printf("I want to give my 100%% dedication to learn!\tI will succeed one day.\n");
+//     return 0;
+// }
+
+
+
+// int main() {
+
+//     long long a;
+//     long long b;
+    
+//     scanf("%lld", &a);
+//     scanf("%lld", &b);
+    
+//     printf("%lld\n", a * b);
+
+
+//     return 0;
+// }
+
+
+
+// int main() {
+
+//     int n;
+//     scanf("%d", &n);
+
+//     if (n % 3 == 0)
+//     {
+//         printf("YES");
+//     }
+//     else
+//     {
+//         printf("NO");
+//     }
+    
+//     return 0;
+// }
+
+
+
+// int main()
+// {
+
+//     int n;
+//     scanf("%d", &n);
+
+//     for (int i = 1; i <= n; i++)
+//     {
+//         if (i%3==0 && i%7==0)
+//         {
+//             printf("%d\n", i);
+//         }
+//     }
+
+//     return 0;
+// }
+
+
+int main() {
+    long long int n;
+    scanf("%lld", &n);
+
+    if (n > 1000) 
+    {
+        printf("I will buy Punjabi\n");
+
+        if (n >= 1500) 
+        {
+            printf("I will buy new shoes\n");
+            printf("Alisa will buy new shoes\n");
+        }
+    } 
+    else 
+    {
+        printf("Bad luck!\n");
+    }
+
     return 0;
 }
+
