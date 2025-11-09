@@ -20,7 +20,6 @@ void print_array(int a[], int n, int i)
 
     }
     
-
     print_array(a,n,i+1);
 }
 
