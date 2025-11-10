@@ -14,13 +14,14 @@ void print_array(int a[], int n, int i)
         return;
     }
     
+    print_array(a,n,i+1);
+
     if (i%2 == 0)
     {        
         printf("%d ", a[i]);
 
     }
-    
-    print_array(a,n,i+1);
+
 }
 
 int main()
